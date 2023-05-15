@@ -5,6 +5,7 @@ import img3 from '../../../assets/images/banner/3.jpg'
 import img4 from '../../../assets/images/banner/4.jpg'
 import img5 from '../../../assets/images/banner/5.jpg'
 import img6 from '../../../assets/images/banner/6.jpg'
+import { FaArrowLeft, FaArrowRight,  } from 'react-icons/fa';
 
 const Banner = () => {
    
@@ -15,12 +16,12 @@ const Banner = () => {
           src={img1}
           className="w-full"
         />
-        <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
-          <a href="#slide4" className="btn btn-circle mr-4">
-            ❮
+        <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0 ">
+          <a href="#slide4" className="btn btn-circle btn-outline btn-error mr-4">
+            <FaArrowLeft/>
           </a>
-          <a href="#slide2" className="btn btn-circle">
-            ❯
+          <a href="#slide2" className="btn btn-circle btn-outline btn-error">
+            <FaArrowRight/>
           </a>
         </div>
       </div>
@@ -29,12 +30,12 @@ const Banner = () => {
           src={img2}
           className="w-full"
         />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn btn-circle">
-            ❮
+        <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
+          <a href="#slide1" className="btn btn-circle btn-outline btn-error mr-4">
+          <FaArrowLeft/>
           </a>
-          <a href="#slide3" className="btn btn-circle">
-            ❯
+          <a href="#slide3" className="btn btn-circle btn-outline btn-error">
+          <FaArrowRight/>
           </a>
         </div>
       </div>
@@ -43,12 +44,12 @@ const Banner = () => {
           src={img3}
           className="w-full"
         />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn btn-circle">
-            ❮
+        <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
+          <a href="#slide2" className="btn btn-circle btn-outline btn-error mr-4">
+          <FaArrowLeft/>
           </a>
-          <a href="#slide4" className="btn btn-circle">
-            ❯
+          <a href="#slide4" className="btn btn-circle btn-outline btn-error">
+          <FaArrowRight/>
           </a>
         </div>
       </div>
@@ -57,12 +58,12 @@ const Banner = () => {
           src={img4}
           className="w-full"
         />
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" className="btn btn-circle">
-            ❮
+        <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
+          <a href="#slide3" className="btn btn-circle btn-outline btn-error mr-4">
+          <FaArrowLeft/>
           </a>
-          <a href="#slide1" className="btn btn-circle">
-            ❯
+          <a href="#slide1" className="btn btn-circle btn-outline btn-error">
+          <FaArrowRight/>
           </a>
         </div>
       </div>
